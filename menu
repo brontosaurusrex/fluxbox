@@ -14,6 +14,8 @@
 [exec] (firefox) {firefox}
 [exec] (mpv) {mpv --force-window --idle --autofit-larger=50% --geometry 49%+0+0}
 
+[separator]
+
 [workspaces] (workspaces)
 
 [separator]
