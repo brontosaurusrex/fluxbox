@@ -21,9 +21,9 @@ To see some shortkeys:
     cd && mkdir .bbtools && cd .bbtools
     wget https://raw.githubusercontent.com/brontosaurusrex/postbang/master/.bbtools/bbpager.rc
     
-## Changelog
+## Notes
 
-Interesting attempt at quasi-tiling (keys), but disabled due to border-eating behaviours
+Interesting attempt at quasi-tiling (keys), but problematic due to border-eating behaviours
 
-    Mod1 y  :ArrangeWindowsStackRight
-    Mod1 x  :ArrangeWindowsStackLeft
+    Control Mod1 y  :ArrangeWindowsStackRight
+    Control Mod1 x  :ArrangeWindowsStackLeft
