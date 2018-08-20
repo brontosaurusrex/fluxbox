@@ -14,39 +14,40 @@ window.label.focus.font: Noto Sans UI-9:bold
 window.label.unfocus.font: Noto Sans UI-9
 
 # Toolbar
-toolbar.height: 26
+toolbar.height: 30
 
 toolbar.justify: center  
                                 
-toolbar.color: #263238
+toolbar.color: #222D32
 
 toolbar.shaped: false           
 
 toolbar.clock: flat
-toolbar.clock.color: #263238
+toolbar.clock.color: #222D32
 # ˇ This is working in overlay, but not here
 toolbar.clock.justify: Center                 
 toolbar.clock.textColor: #D3DAE3
 toolbar.clock.borderWidth: 0
                 
+toolbar.workspace.color: #222D32
 toolbar.workspace.justify: center
-toolbar.workspace.color: #263238
-toolbar.workspace.colorTo: #263238
+toolbar.workspace.color: #222D32
+toolbar.workspace.colorTo: #222D32
 toolbar.workspace.textColor: #D3DAE3
  
 toolbar.button: flat
 toolbar.button.pixmap: button.xpm
-toolbar.button.color: #263238
+toolbar.button.color: #222D32
 toolbar.button.colorTo:         
 toolbar.button.picColor: #33C9DD
 toolbar.button.pressed: flat
 !toolbar.button.pressed.pixmap: root-menu-hover.xpm
-toolbar.button.pressed.color: #263238
+toolbar.button.pressed.color: #222D32
 toolbar.button.pressed.colorTo:
 toolbar.button.pressed.picColor: #808791
  
 toolbar.iconbar.empty:
-toolbar.iconbar.empty.color: #263238
+toolbar.iconbar.empty.color: #222D32
 toolbar.iconbar.empty.colorTo:
  
 toolbar.iconbar.focused.borderWidth: 0
@@ -60,46 +61,40 @@ toolbar.iconbar.focused.justify: center
 toolbar.iconbar.unfocused.borderWidth:
 toolbar.iconbar.unfocused.borderColor:
 toolbar.iconbar.unfocused:
-toolbar.iconbar.unfocused.color: #263238
+toolbar.iconbar.unfocused.color: #222D32
 toolbar.iconbar.unfocused.colorTo:
 toolbar.iconbar.unfocused.textColor: #808791
 toolbar.iconbar.unfocused.justify: center
 
-toolbar.borderWidth:                   0
-toolbar.borderColor:                   #263238
-
-toolbar.bevelWidth: 6
-
 # Menu
-menu.itemHeight: 26
-menu.titleHeight: 26
+menu.itemHeight: 30
+menu.titleHeight: 30
 
 menu.title: flat 
-menu.title.color: #222D32
-menu.title.textColor: #808791
+menu.titleColor: #FDFDFE
+menu.title.textColor: #5B6469
 menu.title.justify: center
 
 menu.frame: flat solid
-menu.frame.color: #222D32
-menu.frame.textColor:  #808791
-menu.frame.disableColor: #222D32
+menu.frame.color: #FDFDFE
+menu.frame.textColor: #5B6469
+menu.frame.disableColor: #A7ABAE
 
 menu.hilite: flat solid
-menu.hilite.color: #00BCD4
-menu.hilite.textColor: #efefef
+menu.hilite.color: #E7E9EA
+menu.hilite.textColor: #263238
 
-menu.borderWidth: 0
-menu.borderColor: #00BCD4
+menu.borderColor: #455A64
 
 # Active window
 window.bevelWidth: 0
-#window.roundCorners: top-left top-right
+window.roundCorners: top-left top-right
 window.title.height: 30
 window.title.focus: raised solid
-window.title.focus.color: #263238
+window.title.focus.color: #222D32
 window.title.unfocus: raised solid
-window.title.unfocus.color: #263238
-window.title.separator.color: #263238
+window.title.unfocus.color: #222D32
+window.title.separator.color: #222D32
 window.justify: left
 
 window.title.height: 24
@@ -107,32 +102,32 @@ window.title.shadow: 0
 
 window.label.focus.pixmap: title.xpm
 window.label.focus: flat solid
-window.label.focus.color: #263238
+window.label.focus.color: #222D32
 window.label.focus.textColor: #ffffff
 window.label.unfocus: flat solid
-window.label.unfocus.color: #263238
+window.label.unfocus.color: #222D32
 window.label.unfocus.textColor: #808791
 
 window.handle: flat solid
-window.handle.color: #263238
+window.handle.color: #222D32
 window.handle.focus: raised solid
-window.handle.focus.color: #263238
+window.handle.focus.color: #222D32
 window.handle.unfocus: raised solid
-window.handle.unfocus.color: #263238
+window.handle.unfocus.color: #222D32
 
 window.grip: flat solid
-window.grip.color: #263238
+window.grip.color: #222D32
 window.grip.focus: raised solid
-window.grip.focus.color: #263238
+window.grip.focus.color: #222D32
 window.grip.unfocus: raised solid
-window.grip.unfocus.color: #263238
+window.grip.unfocus.color: #222D32
 
 window.button.unfocus: flat solid
-window.button.unfocus.color: #263238
+window.button.unfocus.color: #222D32
 window.button.unfocus.picColor: #A3ADB1
 
 window.button.focus: flat solid
-window.button.focus.color: #263238
+window.button.focus.color: #222D32
 window.button.focus.picColor: #33C9DD
 
 window.button.pressed: flat solid
@@ -171,17 +166,15 @@ window.menuicon.pixmap: menu-active.xpm
 window.menuicon.unfocus.pixmap: menu-inactive.xpm
 window.menuicon.pressed.pixmap: menu-pressed.xpm
 
-window.handle.focus.color: #263238
-window.handle.unfocus.color: #263238
+window.handle.focus.color: #222D32
+window.handle.unfocus.color: #222D32
 window.handleWidth: 2
 
-window.lhalf.color: #263238
-
-# fixes
+window.lhalf.color: #222D32
 
 window.borderWidth: 2
 
 window.focus.borderColor: #00BCD4
-window.unfocus.borderColor: #263238
+window.unfocus.borderColor: #222D32
 
-
+toolbar.borderWidth: 0

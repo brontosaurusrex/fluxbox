@@ -1,15 +1,19 @@
 [begin]
+  
+
+  [sendto]
+  [close]
+  [separator]
+    [iconify]
   [shade]
   [stick]
   [maximize]
-  [iconify]
+
   [raise]
   [lower]
   [settitledialog]
-  [sendto]
   [layer]
   [alpha]
   [extramenus]
-  [separator]
-  [close]
+
 [end]
