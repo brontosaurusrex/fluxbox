@@ -20,4 +20,7 @@ To see some shortkeys:
     sudo apt install bbpager
     cd && mkdir .bbtools && cd .bbtools
     wget https://raw.githubusercontent.com/brontosaurusrex/postbang/master/.bbtools/bbpager.rc
-    
+   
+## Notes
+
+- urxvt behaves ugly when forced to pixel specific resize (brown borders), (example: alt + x) 
