@@ -2,7 +2,7 @@
 
 [exec] (run) {gmrun}
 
-[submenu] (user >)
+[submenu] (user)
     [exec] (gimp) {gimp}
     [exec] (inkscape) {inkscape}
     [exec] (blender) {~/apps/blender/blender}
@@ -16,11 +16,7 @@
 
 [separator]
 
-[workspaces] (workspaces)
-
-[separator]
-
-[submenu] (Edit Conf files >)
+[submenu] (config)
     [exec] (menu) {geany ~/.fluxbox/menu}
     [exec] (overlay) {geany ~/.fluxbox/overlay}
     [exec] (keys) {geany ~/.fluxbox/keys}
@@ -29,20 +25,17 @@
 
 [end]
 
-[submenu] (Fluxbox Debian)
-    [include] (/etc/X11/fluxbox/fluxbox-menu)
+[config] (fluxbox)
+
+[submenu] (styles) {}
+      [stylesdir] (/usr/share/fluxbox/styles)
+      [stylesdir] (~/.fluxbox/styles)
 [end]
- 
-[config] (Fluxbox Conf.)
 
 [separator]
 
-[reconfigure] (Reconfigure)
-
-[restart] (Restart)
+[restart] (restart)
 
 [exit] (Exit)
-
-
 
 [end]
