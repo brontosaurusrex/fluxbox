@@ -23,7 +23,7 @@ To see some shortkeys:
     
 ## Changelog
 
-- Interesting attempt at quasi-tiling (keys), but disabled due to border-eating behaviours
+Interesting attempt at quasi-tiling (keys), but disabled due to border-eating behaviours
 
-    #Mod1 y  :ArrangeWindowsStackRight
-    #Mod1 x  :ArrangeWindowsStackLeft
+    Mod1 y  :ArrangeWindowsStackRight
+    Mod1 x  :ArrangeWindowsStackLeft
