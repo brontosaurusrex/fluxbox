@@ -1,8 +1,40 @@
-[begin] (fluxbox)
-[include] (/etc/X11/fluxbox/fluxbox-menu)
-[exec] (urxvt) {/usr/bin/rxvt-unicode}
+[begin] (...)
+
+[exec] (run) {gmrun}
+
+[submenu] (user >)
+    [exec] (gimp) {gimp}
+    [exec] (inkscape) {inkscape}
+    [exec] (blender) {~/apps/blender/blender}
+[end]
+
+[exec] (urxvt) {urxvt}
 [exec] (geany) {geany}
 [exec] (thunar) {thunar}
 [exec] (firefox) {firefox}
+[exec] (mpv) {mpv --force-window --idle --autofit-larger=50% --geometry 49%+0+0}
+
+[separator]
+
+[submenu] (Edit Conf files >)
+    [exec] (menu) {geany ~/.fluxbox/menu}
+    [exec] (overlay) {geany ~/.fluxbox/overlay}
+    [exec] (keys) {geany ~/.fluxbox/keys}
+    [exec] (init) {geany ~/.fluxbox/init}
+    [exec] (startup) {geany ~/.fluxbox/startup}
+
+[end]
+
+[submenu] (Fluxbox Debian)
+    [include] (/etc/X11/fluxbox/fluxbox-menu)
+[end]
+ 
+[config] (Fluxbox Conf.)
+
+[reconfigure] (Reconfigure)
+
+[restart] (Restart)
+
+[exit] (Exit)
 
 [end]
