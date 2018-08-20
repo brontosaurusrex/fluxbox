@@ -15,3 +15,5 @@ toolbar.iconbar.focused.font: Cuprum-12
 toolbar.iconbar.unfocused.font: Cuprum-12
 window.label.focus.font: Cuprum-12
 window.label.unfocus.font: Cuprum-12
+
+toolbar.clock.justify: Center
