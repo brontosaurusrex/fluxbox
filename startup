@@ -15,7 +15,7 @@ xmodmap "/home/b/.Xmodmap"
 # wmsmixer -w &
 # idesk &
 
-clipit & volumeicon & noise &
+volumeicon & noise & nm-applet &
 
 #
 # Debian-local change:
