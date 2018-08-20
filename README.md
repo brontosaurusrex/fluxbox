@@ -1,0 +1,1 @@
+Drop this into ~/.fluxbox

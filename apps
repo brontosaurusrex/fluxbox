@@ -1,0 +1,17 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=thunar) (class=Thunar) (role=Thunar-1534706345-3824594406)
+  [Dimensions]	{57% 58%}
+  [Position]	(UPPERLEFT)	{27% 27%}
+  [Deco]	{NORMAL}
+  [Close]	{yes}
+[end]
+[app] (name=thunar) (class=Thunar) (role=Thunar-1534706368-3326698412)
+  [Dimensions]	{57% 58%}
+[end]
+[app] (name=thunar) (class=Thunar) (role=Thunar-1534706387-758243716)
+  [Dimensions]	{57% 58%}
+  [Position]	(UPPERLEFT)	{42% 42%}
+[end]
