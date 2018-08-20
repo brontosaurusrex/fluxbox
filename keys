@@ -141,9 +141,9 @@ Control Mod4 F12 :TakeToWorkspace 12
 # Arrange / sort of a tiling for fluxbox 1.3.7
 Mod1 A  :ToggleDecor
 
-Control Mod1 y  :ArrangeWindowsStackRight
-Control Mod1 x  :ArrangeWindowsStackLeft
-# ^ will clip the border
+Control Mod1 y  :MacroCmd {ArrangeWindowsStackRight} {ResizeTo 50% 100%}
+Control Mod1 x  :MacroCmd {ArrangeWindowsStackLeft} {ResizeTo 50% 100%}
+# ^ will clip the border without ResizeTo
 
 Mod1 y  :MacroCmd {ResizeTo 50% 100%} {MoveTo 00 00 left}
 Mod1 x  :MacroCmd {ResizeTo 50% 100%} {MoveTo 00 00 right}
