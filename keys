@@ -156,3 +156,11 @@ Mod4 x :Exec xkill
 # open a dialog to run programs
 #Mod1 space :Exec fbrun
 Mod1 space :Exec gmrun
+
+# stupid, disable this if not in wm (Will resize the window with middle mouse button only)
+OnWindow Mouse2 :MacroCmd {Raise} {Focus} {StartResizing NearestCorner}
+# stupid, disable this if not in wm (Will move the window with middle mouse button + ctrl)
+OnWindow Ctrl Mouse2 :StartMoving
+
+# close with middle mice on toolbar (This will close active window and not the one in toolbar)
+OnToolbar Mouse2 :Close
