@@ -58,17 +58,6 @@ Mod4 7 :Tab 7
 Mod4 8 :Tab 8
 Mod4 9 :Tab 9
 
-# open a terminal
-Mod4 t :Exec x-terminal-emulator
-Mod4 w :Exec firefox
-Mod4 f :Exec thunar
-Mod4 e :Exec geany
-Mod4 x :Exec xkill
-
-# open a dialog to run programs
-#Mod1 space :Exec fbrun
-Mod1 space :Exec gmrun
-
 # volume settings, using common keycodes
 # if these don't work, use xev to find out your real keycodes
 176 :Exec amixer sset Master,0 1+
@@ -156,3 +145,14 @@ Mod1 x  :ArrangeWindowsStackLeft
 Mod1 c  :MoveTo 0% 0% center
 Mod1 v  :MaximizeWindow
 Mod1 b  :MinimizeWindow
+
+# launchers
+Mod4 t :Exec x-terminal-emulator
+Mod4 w :Exec firefox
+Mod4 f :Exec thunar
+Mod4 e :Exec geany
+Mod4 x :Exec xkill
+
+# open a dialog to run programs
+#Mod1 space :Exec fbrun
+Mod1 space :Exec gmrun
