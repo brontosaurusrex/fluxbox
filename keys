@@ -148,7 +148,7 @@ Control Mod1 x  :ArrangeWindowsStackLeft
 Mod1 y  :MacroCmd {ResizeTo 50% 100%} {MoveTo 00 00 left}
 Mod1 x  :MacroCmd {ResizeTo 50% 100%} {MoveTo 00 00 right}
 
-#Mod1 c  :MoveTo 0% 0% center
+Control Mod1 c  :MoveTo 0% 0% center
 # ^ will clip the border
 Mod1 c  :MacroCmd {MaximizeVertical} {MoveTo 00 00 Center}
 
