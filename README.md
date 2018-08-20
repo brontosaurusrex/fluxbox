@@ -1,20 +1,29 @@
+## Install
+
 Drop this into ~/.fluxbox
 
 To see some shortkeys:
 
     tail -n 30 ~/.fluxbox/keys
 
-Required:
+## Required
 
 - cuprum font
 - adapta gtk
 
-Scrot
+## Scrot
 
 [![fluxbox2.md.png](https://cdn.scrot.moe/images/2018/08/20/fluxbox2.md.png)](https://cdn.scrot.moe/images/2018/08/20/fluxbox2.png)
 
-bbpager in slit
+## bbpager in slit
 
     sudo apt install bbpager
     cd && mkdir .bbtools && cd .bbtools
     wget https://raw.githubusercontent.com/brontosaurusrex/postbang/master/.bbtools/bbpager.rc
+    
+## Changelog
+
+- Interesting attempt at quasi-tiling (keys), but disabled due to border-eating behaviours
+
+    #Mod1 y  :ArrangeWindowsStackRight
+    #Mod1 x  :ArrangeWindowsStackLeft
